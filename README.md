@@ -234,10 +234,6 @@ I am open to **Flutter development, mobile UI/UX, product-design collaborations,
   <img src="https://img.shields.io/badge/LINKEDIN-LET'S_CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 &nbsp;
-<a href="mailto:iqraa002211@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-SAY_HELLO-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-&nbsp;
 <a href="https://github.com/Iqra-stack-tech?tab=repositories">
   <img src="https://img.shields.io/badge/GITHUB-EXPLORE_WORK-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
 </a>
