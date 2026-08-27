@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">Iqra Waheed — Flutter Developer and UI/UX Designer</title>
+<desc id="desc">Animated design-to-code hero with a mobile interface illustration.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#050816"><animate attributeName="stop-color" values="#050816;#071A2B;#050816" dur="12s" repeatCount="indefinite"/></stop>
+    <stop offset="0.48" stop-color="#0B1026"><animate attributeName="stop-color" values="#0B1026;#19123A;#0B1026" dur="10s" repeatCount="indefinite"/></stop>
+    <stop offset="1" stop-color="#071B2E"><animate attributeName="stop-color" values="#071B2E;#082A33;#071B2E" dur="14s" repeatCount="indefinite"/></stop>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#67E8F9"/>
+    <stop offset="0.5" stop-color="#A78BFA"/>
+    <stop offset="1" stop-color="#F472B6"/>
+  </linearGradient>
+  <linearGradient id="phone" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#14213D"/>
+    <stop offset="1" stop-color="#0A0F1F"/>
+  </linearGradient>
+  <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#10243B"/>
+    <stop offset="1" stop-color="#090E1A"/>
+  </linearGradient>
+  <radialGradient id="orbCyan">
+    <stop offset="0" stop-color="#22D3EE" stop-opacity=".65"/>
+    <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="orbPink">
+    <stop offset="0" stop-color="#EC4899" stop-opacity=".45"/>
+    <stop offset="1" stop-color="#EC4899" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#94A3B8" stroke-opacity=".07" stroke-width="1"/>
+  </pattern>
+  <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="28"/>
+  </filter>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".45"/>
+  </filter>
+  <clipPath id="typingClip"><rect x="78" y="274" width="0" height="44"><animate attributeName="width" values="0;610;610;0" keyTimes="0;.35;.82;1" dur="6s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="phoneClip"><rect x="854" y="66" width="246" height="392" rx="38"/></clipPath>
+  <style>
+    text{font-family:Inter,Segoe UI,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .float1{animation:float1 5.4s ease-in-out infinite}
+    .float2{animation:float2 6.3s ease-in-out infinite}
+    .float3{animation:float3 4.8s ease-in-out infinite}
+    .pulse{animation:pulse 2.4s ease-in-out infinite;transform-origin:center}
+    .blink{animation:blink 1s steps(2,end) infinite}
+    .scan{animation:scan 4.5s linear infinite}
+    .dash{stroke-dasharray:9 12;animation:dash 2.2s linear infinite}
+    @keyframes float1{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+    @keyframes float2{0%,100%{transform:translateY(0)}50%{transform:translateY(9px)}}
+    @keyframes float3{0%,100%{transform:translate(0,0)}50%{transform:translate(8px,-8px)}}
+    @keyframes pulse{0%,100%{opacity:.55;transform:scale(.94)}50%{opacity:1;transform:scale(1.05)}}
+    @keyframes blink{50%{opacity:0}}
+    @keyframes scan{0%{transform:translateY(-20px);opacity:0}15%{opacity:.8}85%{opacity:.5}100%{transform:translateY(340px);opacity:0}}
+    @keyframes dash{to{stroke-dashoffset:-42}}
+  </style>
+</defs>
+
+<rect width="1200" height="520" rx="34" fill="url(#bg)"/>
+<rect width="1200" height="520" rx="34" fill="url(#grid)"/>
+<circle cx="1040" cy="65" r="230" fill="url(#orbCyan)" filter="url(#soft)" class="float2"/>
+<circle cx="740" cy="465" r="220" fill="url(#orbPink)" filter="url(#soft)" class="float1"/>
+<circle cx="115" cy="55" r="95" fill="#7C3AED" opacity=".10" filter="url(#soft)"/>
+
+<!-- top rail -->
+<g transform="translate(78 52)">
+  <rect width="232" height="34" rx="17" fill="#0F172A" stroke="#334155"/>
+  <circle cx="18" cy="17" r="5" fill="#67E8F9" class="pulse"/>
+  <text x="32" y="22" fill="#CBD5E1" font-size="12" font-weight="700" letter-spacing="1.8">MOBILE EXPERIENCE LAB</text>
+</g>
+
+<!-- main copy -->
+<text x="76" y="164" fill="#F8FAFC" font-size="66" font-weight="800" letter-spacing="2">IQRA WAHEED</text>
+<rect x="78" y="187" width="520" height="4" rx="2" fill="url(#accent)">
+  <animate attributeName="width" values="120;520;360;520" dur="8s" repeatCount="indefinite"/>
+</rect>
+<text x="78" y="234" fill="#C4B5FD" font-size="23" font-weight="650">Flutter Developer × UI/UX Designer</text>
+
+<text x="78" y="306" fill="#E2E8F0" opacity=".16" font-size="28" font-weight="600">I design the journey. I build the interface.</text>
+<g clip-path="url(#typingClip)">
+  <text x="78" y="306" fill="#E2E8F0" font-size="28" font-weight="600">I design the journey. I build the interface.</text>
+</g>
+<rect x="685" y="278" width="3" height="34" rx="1.5" fill="#67E8F9" class="blink"/>
+
+<text x="78" y="347" fill="#94A3B8" font-size="17">From the first user flow to the final Flutter widget — one connected product.</text>
+
+<!-- capability chips -->
+<g transform="translate(78 392)">
+  <g><rect width="112" height="38" rx="19" fill="#0E7490" fill-opacity=".22" stroke="#22D3EE" stroke-opacity=".55"/><text x="56" y="24" text-anchor="middle" fill="#A5F3FC" font-size="12" font-weight="700">FLUTTER</text></g>
+  <g transform="translate(124)"><rect width="90" height="38" rx="19" fill="#2563EB" fill-opacity=".18" stroke="#60A5FA" stroke-opacity=".5"/><text x="45" y="24" text-anchor="middle" fill="#BFDBFE" font-size="12" font-weight="700">DART</text></g>
+  <g transform="translate(226)"><rect width="92" height="38" rx="19" fill="#7C3AED" fill-opacity=".18" stroke="#A78BFA" stroke-opacity=".55"/><text x="46" y="24" text-anchor="middle" fill="#DDD6FE" font-size="12" font-weight="700">FIGMA</text></g>
+  <g transform="translate(330)"><rect width="154" height="38" rx="19" fill="#BE185D" fill-opacity=".16" stroke="#F472B6" stroke-opacity=".5"/><text x="77" y="24" text-anchor="middle" fill="#FBCFE8" font-size="12" font-weight="700">MOBILE UX</text></g>
+</g>
+
+<!-- connection route -->
+<path d="M720 150 C790 110 814 148 854 183 C905 230 995 218 1080 300" fill="none" stroke="#67E8F9" stroke-opacity=".28" stroke-width="2" class="dash"/>
+<circle r="6" fill="#F8FAFC" filter="url(#glow)">
+  <animateMotion dur="5.5s" repeatCount="indefinite" path="M720 150 C790 110 814 148 854 183 C905 230 995 218 1080 300"/>
+</circle>
+
+<!-- design chip -->
+<g transform="translate(674 110)" class="float2">
+  <rect width="128" height="76" rx="18" fill="#101827" stroke="#475569" filter="url(#shadow)"/>
+  <circle cx="27" cy="25" r="9" fill="#F24E1E"/>
+  <circle cx="45" cy="25" r="9" fill="#A259FF"/>
+  <circle cx="27" cy="43" r="9" fill="#FF7262"/>
+  <circle cx="45" cy="43" r="9" fill="#1ABCFE"/>
+  <circle cx="27" cy="61" r="9" fill="#0ACF83"/>
+  <text x="65" y="35" fill="#F8FAFC" font-size="14" font-weight="700">DESIGN</text>
+  <text x="65" y="54" fill="#94A3B8" font-size="10">flow → frame</text>
+</g>
+
+<!-- phone -->
+<g filter="url(#shadow)" class="float1">
+  <rect x="840" y="52" width="274" height="420" rx="48" fill="#020617" stroke="#475569" stroke-width="2"/>
+  <rect x="854" y="66" width="246" height="392" rx="38" fill="url(#screen)"/>
+  <rect x="923" y="76" width="108" height="20" rx="10" fill="#020617"/>
+  <circle cx="1040" cy="86" r="3" fill="#334155"/>
+
+  <g clip-path="url(#phoneClip)">
+    <rect x="870" y="110" width="214" height="92" rx="22" fill="#0E7490" fill-opacity=".25" stroke="#22D3EE" stroke-opacity=".28"/>
+    <text x="890" y="138" fill="#A5F3FC" font-size="11" font-weight="700" letter-spacing="1">TODAY'S FOCUS</text>
+    <text x="890" y="170" fill="#F8FAFC" font-size="26" font-weight="800">72%</text>
+    <text x="950" y="169" fill="#94A3B8" font-size="11">flow completed</text>
+    <rect x="890" y="181" width="170" height="7" rx="3.5" fill="#1E293B"/>
+    <rect x="890" y="181" width="122" height="7" rx="3.5" fill="url(#accent)">
+      <animate attributeName="width" values="30;122;96;122" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(870 220)">
+      <rect width="102" height="96" rx="20" fill="#111827" stroke="#334155"/>
+      <circle cx="51" cy="43" r="25" fill="none" stroke="#1E293B" stroke-width="8"/>
+      <circle cx="51" cy="43" r="25" fill="none" stroke="#A78BFA" stroke-width="8" stroke-linecap="round" stroke-dasharray="125 157" transform="rotate(-90 51 43)">
+        <animate attributeName="stroke-dasharray" values="20 157;125 157;105 157;125 157" dur="5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="51" y="48" text-anchor="middle" fill="#F8FAFC" font-size="15" font-weight="800">80</text>
+      <text x="51" y="81" text-anchor="middle" fill="#94A3B8" font-size="9">UI SCORE</text>
+    </g>
+
+    <g transform="translate(982 220)">
+      <rect width="102" height="96" rx="20" fill="#111827" stroke="#334155"/>
+      <path d="M18 57 C26 50 31 64 39 47 S53 68 61 43 S75 62 84 35" fill="none" stroke="#67E8F9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="130" stroke-dashoffset="130">
+        <animate attributeName="stroke-dashoffset" values="130;0;0" keyTimes="0;.55;1" dur="4s" repeatCount="indefinite"/>
+      </path>
+      <text x="51" y="81" text-anchor="middle" fill="#94A3B8" font-size="9">INTERACTION</text>
+    </g>
+
+    <g transform="translate(870 334)">
+      <rect width="214" height="92" rx="20" fill="#111827" stroke="#334155"/>
+      <circle cx="30" cy="29" r="12" fill="#22D3EE" fill-opacity=".18" stroke="#22D3EE"/>
+      <path d="M25 29 l4 4 7 -8" fill="none" stroke="#A5F3FC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="53" y="28" fill="#F8FAFC" font-size="12" font-weight="700">Responsive interface</text>
+      <text x="53" y="45" fill="#94A3B8" font-size="9">Designed. Built. Refined.</text>
+      <rect x="20" y="61" width="174" height="12" rx="6" fill="#1F2937"/>
+      <rect x="20" y="61" width="126" height="12" rx="6" fill="#7C3AED" fill-opacity=".7">
+        <animate attributeName="width" values="40;126;105;126" dur="5.2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <rect x="865" y="90" width="224" height="12" rx="6" fill="#67E8F9" opacity=".12" class="scan"/>
+  </g>
+</g>
+
+<!-- build chip -->
+<g transform="translate(1025 324)" class="float3">
+  <rect width="138" height="76" rx="18" fill="#101827" stroke="#475569" filter="url(#shadow)"/>
+  <path d="M20 18 l14 0 -7 13 12 0 -22 26 7-18 -12 0z" fill="#54C5F8" opacity=".95"/>
+  <text x="50" y="34" fill="#F8FAFC" font-size="14" font-weight="700">BUILD</text>
+  <text x="50" y="53" fill="#94A3B8" font-size="10">widget → app</text>
+</g>
+
+<!-- bottom microcopy -->
+<text x="78" y="485" fill="#64748B" font-size="11" letter-spacing="2">DESIGN SYSTEMS  •  RESPONSIVE UI  •  PRODUCT THINKING  •  FLUTTER ENGINEERING</text>
+</svg>

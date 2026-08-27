@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="330" viewBox="0 0 580 330" role="img" aria-labelledby="title desc">
+<title id="title">Health and Wellness Ecosystem project cover</title><desc id="desc">Animated health dashboard mobile interface.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06131B"/><stop offset=".55" stop-color="#0B2330"/><stop offset="1" stop-color="#0F172A"/></linearGradient>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#34D399"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+ <radialGradient id="orb"><stop stop-color="#34D399" stop-opacity=".35"/><stop offset="1" stop-color="#34D399" stop-opacity="0"/></radialGradient>
+ <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000" flood-opacity=".45"/></filter>
+ <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#94A3B8" stroke-opacity=".04"/></pattern>
+ <style>text{font-family:Inter,Segoe UI,Arial,sans-serif}.float{animation:float 5s ease-in-out infinite}.pulse{animation:pulse 2.2s ease-in-out infinite;transform-origin:center}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@keyframes pulse{0%,100%{opacity:.5;transform:scale(.94)}50%{opacity:1;transform:scale(1.06)}}</style>
+</defs>
+<rect width="580" height="330" rx="28" fill="url(#bg)"/><rect width="580" height="330" rx="28" fill="url(#grid)"/><circle cx="500" cy="55" r="120" fill="url(#orb)"/>
+<text x="30" y="42" fill="#6EE7B7" font-size="11" font-weight="800" letter-spacing="2">CASE STUDY 01</text>
+<text x="30" y="82" fill="#F8FAFC" font-size="28" font-weight="800">Health &amp; Wellness</text>
+<text x="30" y="112" fill="#F8FAFC" font-size="28" font-weight="800">Ecosystem</text>
+<text x="30" y="144" fill="#94A3B8" font-size="13">Real-time health data, made human.</text>
+<g transform="translate(30 185)"><rect width="112" height="30" rx="15" fill="#064E3B" fill-opacity=".55" stroke="#34D399" stroke-opacity=".45"/><text x="56" y="20" text-anchor="middle" fill="#A7F3D0" font-size="10" font-weight="700">FLUTTER</text></g>
+<g transform="translate(151 185)"><rect width="142" height="30" rx="15" fill="#164E63" fill-opacity=".45" stroke="#22D3EE" stroke-opacity=".4"/><text x="71" y="20" text-anchor="middle" fill="#A5F3FC" font-size="10" font-weight="700">DATA VISUALS</text></g>
+<path d="M31 255 C56 232 74 279 100 246 S144 282 172 236 S221 272 262 225" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="340" stroke-dashoffset="340" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="340;0;0" keyTimes="0;.62;1" dur="4.4s" repeatCount="indefinite"/></path>
+<circle cx="262" cy="225" r="7" fill="#6EE7B7" class="pulse" filter="url(#glow)"/>
+<text x="30" y="303" fill="#64748B" font-size="10" letter-spacing="1.5">SMOOTH UI  •  RESPONSIVE LAYOUT  •  HEALTH METRICS</text>
+
+<g filter="url(#shadow)" class="float">
+ <rect x="360" y="34" width="170" height="264" rx="34" fill="#030712" stroke="#475569" stroke-width="2"/>
+ <rect x="371" y="47" width="148" height="238" rx="25" fill="#0B1924"/>
+ <rect x="417" y="55" width="56" height="10" rx="5" fill="#020617"/>
+ <text x="389" y="91" fill="#94A3B8" font-size="9" letter-spacing="1.2">TODAY</text>
+ <text x="389" y="116" fill="#F8FAFC" font-size="16" font-weight="800">Wellness Score</text>
+ <circle cx="445" cy="169" r="39" fill="none" stroke="#1E293B" stroke-width="10"/>
+ <circle cx="445" cy="169" r="39" fill="none" stroke="#34D399" stroke-width="10" stroke-linecap="round" stroke-dasharray="190 245" transform="rotate(-90 445 169)"><animate attributeName="stroke-dasharray" values="40 245;190 245;160 245;190 245" dur="5s" repeatCount="indefinite"/></circle>
+ <text x="445" y="174" text-anchor="middle" fill="#F8FAFC" font-size="22" font-weight="800">82</text>
+ <g transform="translate(388 228)"><rect width="114" height="36" rx="12" fill="#111827" stroke="#334155"/><circle cx="18" cy="18" r="7" fill="#34D399" fill-opacity=".25"/><text x="34" y="15" fill="#E2E8F0" font-size="9" font-weight="700">Heart rhythm</text><text x="34" y="27" fill="#6EE7B7" font-size="8">Stable</text></g>
+</g>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="330" viewBox="0 0 580 330" role="img" aria-labelledby="title desc">
+<title id="title">Focus and Productivity App project cover</title><desc id="desc">Animated focus timer and distraction-free interface.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0D0718"/><stop offset=".58" stop-color="#17102B"/><stop offset="1" stop-color="#111827"/></linearGradient>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#A78BFA"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+ <radialGradient id="orb"><stop stop-color="#A78BFA" stop-opacity=".35"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+ <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000" flood-opacity=".45"/></filter>
+ <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#94A3B8" opacity=".05"/></pattern>
+ <style>text{font-family:Inter,Segoe UI,Arial,sans-serif}.float{animation:float 5.4s ease-in-out infinite}.pulse{animation:pulse 2.4s ease-in-out infinite;transform-origin:center}.blink{animation:blink 1s steps(2,end) infinite}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}@keyframes pulse{0%,100%{opacity:.45;transform:scale(.93)}50%{opacity:1;transform:scale(1.07)}}@keyframes blink{50%{opacity:0}}</style>
+</defs>
+<rect width="580" height="330" rx="28" fill="url(#bg)"/><rect width="580" height="330" rx="28" fill="url(#dots)"/><circle cx="475" cy="60" r="130" fill="url(#orb)"/>
+<text x="30" y="42" fill="#C4B5FD" font-size="11" font-weight="800" letter-spacing="2">CASE STUDY 02</text>
+<text x="30" y="82" fill="#F8FAFC" font-size="28" font-weight="800">Focus &amp; Productivity</text>
+<text x="30" y="112" fill="#F8FAFC" font-size="28" font-weight="800">for Students</text>
+<text x="30" y="144" fill="#94A3B8" font-size="13">A calmer interface for deeper work.</text>
+<g transform="translate(30 185)"><rect width="112" height="30" rx="15" fill="#4C1D95" fill-opacity=".38" stroke="#A78BFA" stroke-opacity=".5"/><text x="56" y="20" text-anchor="middle" fill="#DDD6FE" font-size="10" font-weight="700">IN PROGRESS</text></g>
+<g transform="translate(151 185)"><rect width="126" height="30" rx="15" fill="#831843" fill-opacity=".30" stroke="#F472B6" stroke-opacity=".42"/><text x="63" y="20" text-anchor="middle" fill="#FBCFE8" font-size="10" font-weight="700">STUDENT UX</text></g>
+<g transform="translate(30 239)">
+ <rect width="250" height="46" rx="15" fill="#111827" stroke="#334155"/>
+ <circle cx="23" cy="23" r="8" fill="#A78BFA" fill-opacity=".24" stroke="#A78BFA"/>
+ <path d="M19 23 l3 3 6-7" fill="none" stroke="#DDD6FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+ <text x="42" y="20" fill="#E2E8F0" font-size="10" font-weight="700">Distraction-free study flow</text>
+ <text x="42" y="33" fill="#64748B" font-size="8.5">Plan → focus → reflect</text>
+</g>
+<text x="30" y="309" fill="#64748B" font-size="10" letter-spacing="1.5">DEEP WORK  •  CALM UI  •  PURPOSEFUL INTERACTION</text>
+
+<g filter="url(#shadow)" class="float">
+ <rect x="356" y="34" width="176" height="264" rx="34" fill="#030712" stroke="#475569" stroke-width="2"/>
+ <rect x="368" y="47" width="152" height="238" rx="25" fill="#100D1C"/>
+ <rect x="418" y="55" width="52" height="10" rx="5" fill="#020617"/>
+ <text x="444" y="94" text-anchor="middle" fill="#94A3B8" font-size="9" letter-spacing="1.3">DEEP WORK</text>
+ <circle cx="444" cy="164" r="50" fill="none" stroke="#1E293B" stroke-width="11"/>
+ <circle cx="444" cy="164" r="50" fill="none" stroke="url(#accent)" stroke-width="11" stroke-linecap="round" stroke-dasharray="235 314" transform="rotate(-90 444 164)"><animate attributeName="stroke-dasharray" values="30 314;235 314;190 314;235 314" dur="6s" repeatCount="indefinite"/></circle>
+ <text x="444" y="160" text-anchor="middle" fill="#F8FAFC" font-size="26" font-weight="800">42:18</text>
+ <text x="444" y="180" text-anchor="middle" fill="#A78BFA" font-size="9" font-weight="700">FOCUSING</text>
+ <circle cx="402" cy="239" r="15" fill="#1E293B"/><path d="M398 235 l8 8 M406 235 l-8 8" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+ <circle cx="444" cy="239" r="15" fill="#7C3AED" class="pulse"/><rect x="439" y="233" width="4" height="12" rx="2" fill="#F8FAFC"/><rect x="446" y="233" width="4" height="12" rx="2" fill="#F8FAFC"/>
+ <circle cx="486" cy="239" r="15" fill="#1E293B"/><path d="M482 233 l10 6 -10 6z" fill="#94A3B8"/>
+</g>
+</svg>

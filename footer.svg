@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+<title id="title">Design, build, refine footer</title><desc id="desc">Animated closing banner for Iqra Waheed's profile.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050816"/><stop offset=".5" stop-color="#0E1230"/><stop offset="1" stop-color="#071B2E"/></linearGradient>
+ <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22D3EE"/><stop offset=".5" stop-color="#A78BFA"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+ <radialGradient id="orb1"><stop stop-color="#22D3EE" stop-opacity=".35"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+ <radialGradient id="orb2"><stop stop-color="#F472B6" stop-opacity=".25"/><stop offset="1" stop-color="#F472B6" stop-opacity="0"/></radialGradient>
+ <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>text{font-family:Inter,Segoe UI,Arial,sans-serif}.dash{stroke-dasharray:10 14;animation:dash 2.4s linear infinite}.float1{animation:float1 6s ease-in-out infinite}.float2{animation:float2 7s ease-in-out infinite}@keyframes dash{to{stroke-dashoffset:-48}}@keyframes float1{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}@keyframes float2{0%,100%{transform:translateY(0)}50%{transform:translateY(10px)}}</style>
+</defs>
+<rect width="1200" height="230" rx="28" fill="url(#bg)"/>
+<circle cx="140" cy="80" r="150" fill="url(#orb1)" class="float1"/><circle cx="1040" cy="170" r="180" fill="url(#orb2)" class="float2"/>
+<path d="M80 126 C240 88 320 168 480 126 S720 88 880 126 S1050 164 1120 126" fill="none" stroke="url(#line)" stroke-width="3" stroke-opacity=".5" class="dash"/>
+<circle r="7" fill="#F8FAFC" filter="url(#glow)"><animateMotion dur="7s" repeatCount="indefinite" path="M80 126 C240 88 320 168 480 126 S720 88 880 126 S1050 164 1120 126"/></circle>
+<text x="600" y="78" text-anchor="middle" fill="#F8FAFC" font-size="30" font-weight="800" letter-spacing="2">DESIGN  →  BUILD  →  REFINE</text>
+<text x="600" y="163" text-anchor="middle" fill="#CBD5E1" font-size="18">I make mobile products feel clear, calm and intentional.</text>
+<text x="600" y="194" text-anchor="middle" fill="#64748B" font-size="10" font-weight="700" letter-spacing="2.4">IQRA WAHEED  •  FLUTTER × UI/UX</text>
+</svg>

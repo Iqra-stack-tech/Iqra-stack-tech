@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Iqra's design and development toolkit</title><desc id="desc">Animated design, build and ship lanes converging into a mobile product.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070B16"/><stop offset="1" stop-color="#10152A"/></linearGradient>
+ <linearGradient id="phone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#15233B"/><stop offset="1" stop-color="#0B1020"/></linearGradient>
+ <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity=".38"/></filter>
+ <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#94A3B8" opacity=".07"/></pattern>
+ <style>text{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}.dash{stroke-dasharray:6 12;animation:dash 1.8s linear infinite}.float{animation:float 4.8s ease-in-out infinite}.pulse{animation:pulse 2.2s ease-in-out infinite;transform-origin:center}@keyframes dash{to{stroke-dashoffset:-36}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@keyframes pulse{0%,100%{opacity:.5;transform:scale(.92)}50%{opacity:1;transform:scale(1.06)}}</style>
+</defs>
+<rect width="1200" height="360" rx="28" fill="url(#bg)"/><rect width="1200" height="360" rx="28" fill="url(#dots)"/>
+<text x="54" y="46" fill="#64748B" font-size="11" font-weight="700" letter-spacing="2.1">THE SYSTEM BEHIND THE SCREEN</text>
+
+<!-- lane 1 -->
+<g transform="translate(54 78)">
+ <rect width="690" height="68" rx="22" fill="#0F172A" stroke="#334155"/>
+ <rect width="118" height="68" rx="22" fill="#7C3AED" fill-opacity=".16"/><text x="59" y="42" text-anchor="middle" fill="#DDD6FE" font-size="16" font-weight="800">DESIGN</text>
+ <g transform="translate(145 16)"><rect width="118" height="36" rx="18" fill="#1E293B"/><text x="59" y="23" text-anchor="middle" fill="#E2E8F0" font-size="12">User Flows</text></g>
+ <g transform="translate(277 16)"><rect width="112" height="36" rx="18" fill="#1E293B"/><text x="56" y="23" text-anchor="middle" fill="#E2E8F0" font-size="12">Wireframes</text></g>
+ <g transform="translate(403 16)"><rect width="104" height="36" rx="18" fill="#1E293B"/><text x="52" y="23" text-anchor="middle" fill="#E2E8F0" font-size="12">Figma</text></g>
+ <g transform="translate(521 16)"><rect width="142" height="36" rx="18" fill="#1E293B"/><text x="71" y="23" text-anchor="middle" fill="#E2E8F0" font-size="12">Prototypes</text></g>
+</g>
+<!-- lane 2 -->
+<g transform="translate(54 154)">
+ <rect width="690" height="68" rx="22" fill="#0F172A" stroke="#334155"/>
+ <rect width="118" height="68" rx="22" fill="#0284C7" fill-opacity=".17"/><text x="59" y="42" text-anchor="middle" fill="#BAE6FD" font-size="16" font-weight="800">BUILD</text>
+ <g transform="translate(145 16)"><rect width="104" height="36" rx="18" fill="#1E293B"/><text x="52" y="23" text-anchor="middle" fill="#E2E8F0" font-size="12">Flutter</text></g>
+ <g transform="translate(263 16)"><rect width="88" height="36" rx="18" fill="#1E293B"/><text x="44" y="23" text-anchor="middle" fill="#E2E8F0" font-size="12">Dart</text></g>
+ <g transform="translate(365 16)"><rect width="142" height="36" rx="18" fill="#1E293B"/><text x="71" y="23" text-anchor="middle" fill="#E2E8F0" font-size="12">Responsive UI</text></g>
+ <g transform="translate(521 16)"><rect width="142" height="36" rx="18" fill="#1E293B"/><text x="71" y="23" text-anchor="middle" fill="#E2E8F0" font-size="12">State Handling</text></g>
+</g>
+<!-- lane 3 -->
+<g transform="translate(54 230)">
+ <rect width="690" height="68" rx="22" fill="#0F172A" stroke="#334155"/>
+ <rect width="118" height="68" rx="22" fill="#BE185D" fill-opacity=".16"/><text x="59" y="42" text-anchor="middle" fill="#FBCFE8" font-size="16" font-weight="800">SHIP</text>
+ <g transform="translate(145 16)"><rect width="88" height="36" rx="18" fill="#1E293B"/><text x="44" y="23" text-anchor="middle" fill="#E2E8F0" font-size="12">Git</text></g>
+ <g transform="translate(247 16)"><rect width="108" height="36" rx="18" fill="#1E293B"/><text x="54" y="23" text-anchor="middle" fill="#E2E8F0" font-size="12">GitHub</text></g>
+ <g transform="translate(369 16)"><rect width="138" height="36" rx="18" fill="#1E293B"/><text x="69" y="23" text-anchor="middle" fill="#E2E8F0" font-size="12">Collaboration</text></g>
+ <g transform="translate(521 16)"><rect width="142" height="36" rx="18" fill="#1E293B"/><text x="71" y="23" text-anchor="middle" fill="#E2E8F0" font-size="12">Iteration</text></g>
+</g>
+
+<!-- converging lines -->
+<path d="M744 112 C815 112 800 155 862 164" fill="none" stroke="#A78BFA" stroke-width="3" opacity=".55" class="dash"/>
+<path d="M744 188 C812 188 815 188 862 188" fill="none" stroke="#38BDF8" stroke-width="3" opacity=".55" class="dash"/>
+<path d="M744 264 C815 264 800 221 862 212" fill="none" stroke="#F472B6" stroke-width="3" opacity=".55" class="dash"/>
+<circle r="6" fill="#DDD6FE" filter="url(#glow)"><animateMotion dur="4s" repeatCount="indefinite" path="M744 112 C815 112 800 155 862 164"/></circle>
+<circle r="6" fill="#BAE6FD" filter="url(#glow)"><animateMotion dur="4.6s" repeatCount="indefinite" path="M744 188 C812 188 815 188 862 188"/></circle>
+<circle r="6" fill="#FBCFE8" filter="url(#glow)"><animateMotion dur="5.1s" repeatCount="indefinite" path="M744 264 C815 264 800 221 862 212"/></circle>
+
+<!-- product device -->
+<g filter="url(#shadow)" class="float">
+ <rect x="860" y="58" width="286" height="250" rx="36" fill="#050816" stroke="#475569" stroke-width="2"/>
+ <rect x="878" y="76" width="250" height="214" rx="26" fill="url(#phone)"/>
+ <rect x="953" y="87" width="100" height="13" rx="6.5" fill="#020617"/>
+ <text x="1003" y="130" text-anchor="middle" fill="#64748B" font-size="10" font-weight="700" letter-spacing="1.8">MOBILE EXPERIENCE</text>
+ <circle cx="1003" cy="187" r="50" fill="none" stroke="#1E293B" stroke-width="10"/>
+ <circle cx="1003" cy="187" r="50" fill="none" stroke="#67E8F9" stroke-width="10" stroke-linecap="round" stroke-dasharray="240 314" transform="rotate(-90 1003 187)">
+  <animate attributeName="stroke-dasharray" values="50 314;240 314;210 314;240 314" dur="5s" repeatCount="indefinite"/>
+ </circle>
+ <text x="1003" y="181" text-anchor="middle" fill="#F8FAFC" font-size="18" font-weight="800">DESIGN</text>
+ <text x="1003" y="204" text-anchor="middle" fill="#F8FAFC" font-size="18" font-weight="800">× CODE</text>
+ <g transform="translate(902 252)"><rect width="202" height="20" rx="10" fill="#1E293B"/><rect width="148" height="20" rx="10" fill="url(#bar)"><animate attributeName="width" values="40;148;120;148" dur="4.8s" repeatCount="indefinite"/></rect></g>
+</g>
+<defs><linearGradient id="bar"><stop stop-color="#A78BFA"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+</svg>
