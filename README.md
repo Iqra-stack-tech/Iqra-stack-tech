@@ -186,7 +186,6 @@ User-centered design · Wireframing · Prototyping · UX process · Usability
 
 <!-- Add your certificate URL below when available. -->
 
-<a href="#"><b>VIEW CREDENTIAL ↗</b></a>
 
 </td>
 <td width="50%" align="center" valign="top">
@@ -199,7 +198,6 @@ Flutter development · Dart fundamentals · Mobile interfaces · App structure
 
 <!-- Add your certificate URL below when available. -->
 
-<a href="#"><b>VIEW CREDENTIAL ↗</b></a>
 
 </td>
 </tr>
