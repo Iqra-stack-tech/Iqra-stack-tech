@@ -1,11 +1,11 @@
 <!--
   IQRA WAHEED · GITHUB PROFILE README
   Theme: Design-to-Code / Aurora Interface Lab
-  Keep the assets/ folder in the same profile repository as this README.
+  Keep all SVG files in the repository root beside this README.
 -->
 
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Iqra Waheed — Flutter Developer and UI/UX Designer" />
+  <img src="./hero.svg" width="100%" alt="Iqra Waheed — Flutter Developer and UI/UX Designer" />
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@ From the first user flow to the final Flutter widget, I build mobile experiences
 ## `01 / PROCESS`
 
 <p align="center">
-  <img src="./assets/process.svg" width="100%" alt="Understand, design, build and refine process" />
+  <img src="./process.svg" width="100%" alt="Understand, design, build and refine process" />
 </p>
 
 <br/>
@@ -43,7 +43,7 @@ From the first user flow to the final Flutter widget, I build mobile experiences
 ## `02 / THE CRAFT`
 
 <p align="center">
-  <img src="./assets/craft-map.svg" width="100%" alt="Design, build and ship toolkit" />
+  <img src="./craft-map.svg" width="100%" alt="Design, build and ship toolkit" />
 </p>
 
 <table>
@@ -88,7 +88,7 @@ I translate designs into responsive Flutter layouts, reusable components and int
 <tr>
 <td width="50%" valign="top">
 
-<img src="./assets/health-project.svg" width="100%" alt="Health and Wellness Ecosystem project" />
+<img src="./health-project.svg" width="100%" alt="Health and Wellness Ecosystem project" />
 
 ### Health & Wellness Ecosystem
 
@@ -96,20 +96,21 @@ A high-stakes health experience designed to make real-time metrics feel understa
 
 **My role**
 
-- Architected the mobile side in Flutter
-- Built responsive, performance-conscious interfaces
-- Worked with custom health-data visualizations
-- Focused on smooth interaction and visual clarity
+* Architected the mobile side in Flutter
+* Built responsive, performance-conscious interfaces
+* Worked with custom health-data visualizations
+* Focused on smooth interaction and visual clarity
 
 `Flutter` `Dart` `Responsive UI` `Data Visualization`
 
 <!-- Replace # with the repository or case-study link when ready. -->
+
 <a href="#"><b>CASE STUDY COMING SOON ↗</b></a>
 
 </td>
 <td width="50%" valign="top">
 
-<img src="./assets/focus-project.svg" width="100%" alt="Focus and Productivity App project" />
+<img src="./focus-project.svg" width="100%" alt="Focus and Productivity App project" />
 
 ### Focus & Productivity App
 
@@ -117,14 +118,15 @@ A distraction-free student experience for protecting attention during deep-work 
 
 **My role**
 
-- Designed calm, student-focused UI flows
-- Planned the initial product and app structure
-- Implemented core screens and navigation in Flutter
-- Kept the experience purposeful and visually quiet
+* Designed calm, student-focused UI flows
+* Planned the initial product and app structure
+* Implemented core screens and navigation in Flutter
+* Kept the experience purposeful and visually quiet
 
 `Flutter` `Dart` `Figma` `Student UX`
 
 <!-- Replace # with the repository or case-study link when ready. -->
+
 <a href="#"><b>IN DEVELOPMENT · FOLLOW THE BUILD ↗</b></a>
 
 </td>
@@ -143,12 +145,12 @@ A distraction-free student experience for protecting attention during deep-work 
 
 I work across both sides of the mobile-product process:
 
-- Design mobile interfaces, user flows, wireframes and high-fidelity prototypes in Figma
-- Make usability and clean layout decisions before implementation
-- Convert selected designs into responsive Flutter screens
-- Work with UI components, navigation and layout optimization
-- Collaborate with developers on accurate design implementation
-- Contribute within real production-code and team workflows
+* Design mobile interfaces, user flows, wireframes and high-fidelity prototypes in Figma
+* Make usability and clean layout decisions before implementation
+* Convert selected designs into responsive Flutter screens
+* Work with UI components, navigation and layout optimization
+* Collaborate with developers on accurate design implementation
+* Contribute within real production-code and team workflows
 
 </details>
 
@@ -183,6 +185,7 @@ Managed graphics and media content, supported event communication and helped org
 User-centered design · Wireframing · Prototyping · UX process · Usability
 
 <!-- Add your certificate URL below when available. -->
+
 <a href="#"><b>VIEW CREDENTIAL ↗</b></a>
 
 </td>
@@ -195,6 +198,7 @@ User-centered design · Wireframing · Prototyping · UX process · Usability
 Flutter development · Dart fundamentals · Mobile interfaces · App structure
 
 <!-- Add your certificate URL below when available. -->
+
 <a href="#"><b>VIEW CREDENTIAL ↗</b></a>
 
 </td>
@@ -245,5 +249,5 @@ I am open to **Flutter development, mobile UI/UX, product-design collaborations,
 <br/>
 
 <p align="center">
-  <img src="./assets/footer.svg" width="100%" alt="Design, build, refine" />
+  <img src="./footer.svg" width="100%" alt="Design, build, refine" />
 </p>
